@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Tobe</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header id="header">
+            <button class="main"><h1>Tobe</h1></button>
+        </header>
+        <main>
+            <section id="tobe">
+                <div class="image">
+                    <img src="images/Tobe1.jpg">
+                    <p>Description.</p>
+                </div>
+                <div class="image">
+                    <img src="images/Tobe2.jpg">
+                    <p>Description.</p>
+                </div>
+                <div class="image">
+                    <img src="images/Tobe3.jpg">
+                    <p>Description.</p>
+                </div>
+                <div class="image">
+                    <img src="images/Tobe4.jpg">
+                    <p>Description.</p>
+                </div>
+                <div class="image">
+                    <img src="images/Tobe5.jpg">
+                    <p>Description.</p>
+                </div>
+                <div class="image">
+                    <img src="images/Tobe6.jpg">
+                    <p>Description.</p>
+                </div>
+                <div class="image">
+                    <img src="images/Tobe7.jpg">
+                    <p>Description.</p>
+                </div>
+                <div class="image">
+                    <img src="images/Tobe8.jpg">
+                    <p>Description.</p>
+                </div>
+                <div class="image">
+                    <img src="images/Tobe9.jpg">
+                    <p>Description.</p>
+                </div>
+                <div class="image">
+                    <img src="images/Tobe10.jpg">
+                    <p>Description.</p>
+                </div>
+            </section>
+        </main>
+        <script>
+            const headerClassList = document.getElementById("header").classList;
+            document.addEventListener('scroll', (e) => {
+                if(scrollY > 0) {
+                    headerClassList.add("active");
+                } else {
+                    headerClassList.remove("active");
+                }
+            });
+          </script>
+    </body>
+</html>
